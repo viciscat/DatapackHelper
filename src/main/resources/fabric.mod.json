@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "datapack_helper",
+  "version": "${version}",
+  "name": "Datapack Helper",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/datapack_helper/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.viciscat.datapack_helper.client.DatapackHelperClient"
+    ],
+    "main": [
+      "me.viciscat.datapack_helper.DatapackHelper"
+    ]
+  },
+  "mixins": [
+    "datapack_helper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener": "datapack-helper.accesswidener"
+}
