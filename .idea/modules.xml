@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DatapackHelper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/DatapackHelper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DatapackHelper.test.iml" filepath="$PROJECT_DIR$/.idea/modules/DatapackHelper.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Datapack_Helper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Datapack_Helper.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Datapack_Helper.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Datapack_Helper.test.iml" />
     </modules>
